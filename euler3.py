@@ -30,21 +30,12 @@ def get_highest_prime_factor(target_number):
     return prime_factors
     
     
-    # print(f'Factors of {target_number}: {find_factors(target_number)}')
-    
-    # for factor in find_factors(target_number):
-            
-    #     #add the prime numbers to a separate list 
-    #     if is_prime_number(factor):
-    #         prime_factors.append(factor)
-    
-    
         
     # print(f'Prime Factors: {prime_factors}')
     # return max(prime_factors)
 
-# print(get_highest_prime_factor(600851475143))
-print(get_highest_prime_factor(13195))
+print(get_highest_prime_factor(600851475143))
+# print(get_highest_prime_factor(13195))
 
     
         
