@@ -25,9 +25,9 @@ def is_prime_number(anumber):
 
 def get_highest_prime_factor(target_number):
     
-    prime_factors = [factor for factor in find_factors(target_number) if is_prime_number(factor)]
+    prime_factors = ([factor for factor in find_factors(target_number) if is_prime_number(factor)])
     
-    return prime_factors
+    return max(prime_factors)
     
     
         
